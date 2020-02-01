@@ -1,0 +1,101 @@
+/*** CORE STYLES ***/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*** GENERAL STYLES ***/
+body
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    background-color: #eaeaea;
+}
+
+a:not(.underline-link)
+{
+    text-decoration: none;
+}
+
+.nav-highlight
+{
+    border-bottom: 1px solid #000;
+}
+
+.black-sect
+{
+    background-color: #000;
+    color: #fff;
+}
+
+.black-sect > a
+{
+    color: #dac1a7
+}
+
+.white-sect
+{
+    background-color: #fff;
+}
+
+
+/*** HEADER & NAVIGATION STYLES ***/
+a:link:not(.gold-button), a:visited:not(.gold-button)
+{
+    color: #000;
+}
+
+header
+{
+    margin: 55px 0 110px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+h1
+{
+    font-size: 3.5rem;
+}
+
+main > section:first-child
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+}
+
+
+/*** INTRO SECT STYLES ***/
+
+
+
+/***  ***/
+
+
+
+/*** ***/
+
+
+
+/*** ***/
+
+
+
+/*** FOOTER ***/
+footer a:hover, main > section:last-child > a:hover
+{
+    color: #555;
+}
